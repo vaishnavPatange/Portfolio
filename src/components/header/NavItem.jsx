@@ -7,7 +7,7 @@ function NavItem({
 
 }) {
   return (
-    <div className="m-auto p-1">
+    <div className="m-auto p-1 col-span-1">
         <a className="text-white text-xl" href={dest}>{children}</a>
     </div>
   )
