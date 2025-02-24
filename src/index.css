@@ -7,6 +7,10 @@ body{
   color: white;
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 input::placeholder,
 textarea::placeholder{
   color: #3d546b;

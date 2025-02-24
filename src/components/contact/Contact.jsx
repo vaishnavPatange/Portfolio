@@ -11,15 +11,15 @@ const Contact = () => {
         <form action="">
           <div className="mt-3">
             <label htmlFor="name" className="text-xl sm:text-2xl">Your Name</label> <br />
-            <input type="text" placeholder="Enter your name" id="name" className="px-2 py-2 w-full rounded-md bg-[#d0d7f2]"/>
+            <input type="text" placeholder="Enter your name" id="name" className="px-2 py-2 w-full rounded-md bg-[#d0d7f2]  hover:opacity-80"/>
           </div>
           <div className="mt-3">
             <label htmlFor="email" className="text-xl sm:text-2xl">Email</label> <br />
-            <input type="text" placeholder="Enter your email" id="email" className="px-2 py-2 w-full rounded-md  bg-[#d0d7f2]"/>
+            <input type="text" placeholder="Enter your email" id="email" className="px-2 py-2 w-full rounded-md  bg-[#d0d7f2] hover:opacity-80"/>
           </div>
           <div className="mt-3">
             <label htmlFor="message"  className="text-xl sm:text-2xl">Your Message</label>
-            <textarea name="message" placeholder="Enter your message" id="message" rows="4" className="px-2 py-2 w-full rounded-md  bg-[#d0d7f2]"></textarea>
+            <textarea name="message" placeholder="Enter your message" id="message" rows="4" className="px-2 py-2 w-full rounded-md  bg-[#d0d7f2] hover:opacity-80"></textarea>
           </div>
           <button className="font-medium mt-2 rounded-lg px-3 py-2 bg-[#d0d7f2] text-[#3d546b]">Send Message</button>
         </form>

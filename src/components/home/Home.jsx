@@ -16,7 +16,7 @@ const Home = () => {
         </p>
         <button className='mx-auto mt-5 sm:mt-10 text-white py-2 px-3 text-sm sm:text-lg sm:py-2 sm:px-4
                            hover:opacity-85 hover:scale-105 duration-100 font-semibold rounded-3xl bg-[#465697]' >
-          Contact me
+          <a href="#contact" className='outline-none'>Contact me</a>
         </button>
       </div>
     </div>
