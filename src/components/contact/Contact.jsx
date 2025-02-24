@@ -3,6 +3,10 @@ import emailjs from "@emailjs/browser";
 import { GoX } from "react-icons/go"
 const Contact = () => {
 
+  const serviceId = String(import.meta.env.VITE_E_MAIL_SERVICE_ID);
+  const templateId = String(import.meta.env.VITE_E_MAIL_TEMPLATE_ID);
+  const publicKey = String(import.meta.env.VITE_E_MAIL_PUBLIC_KEY);
+
   const form = useRef();
   const [senderName, setSenderName] = useState("");
   const [senderEmail, setSenderEmail] = useState("");
@@ -13,8 +17,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_uigo8da', 'template_mxk55jr', form.current, {
-        publicKey: '_sXDhOra5U_ST71Im',
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
       })
       .then(
         () => {
