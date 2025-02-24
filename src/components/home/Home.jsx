@@ -8,7 +8,7 @@ const Home = () => {
         <img className='w-3/4 mx-auto' src={profile} alt="" />
       </div>
       <div className='sm:w-2/4 sm:p-10 min-w-96'>
-        <h1 className=' text-3xl sm:text-6xl font-bold flex leading-normal tracking-tighter'>
+        <h1 className=' text-3xl sm:text-6xl font-bold flex leading-normal tracking-tighter  mx-auto'>
          Hello, I'm Vaishnav
         </h1>
         <p className='text-sm sm:text-2xl tracking-tighter mt-1'>
