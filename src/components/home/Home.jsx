@@ -12,7 +12,7 @@ const Home = () => {
          Hello, I'm Vaishnav
         </h1>
         <p className='text-sm sm:text-2xl tracking-tighter mt-1'>
-          A Result driven Full-stack web developer in MERN and ASP.NET
+          A Result driven Full-stack web developer in MERN and Next.js
         </p>
         <button className='mx-auto mt-5 sm:mt-10 text-white py-2 px-3 text-sm sm:text-lg sm:py-2 sm:px-4
                            hover:opacity-85 hover:scale-105 duration-100 font-semibold rounded-3xl bg-[#465697]' >
